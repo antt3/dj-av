@@ -1,5 +1,5 @@
 import { Dialog } from "@headlessui/react"
-import type { AppRouterInstance } from "next/dist/shared/lib/app-router-context"
+import type { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime"
 import { useRouter } from "next/navigation"
 import type { Dispatch, FormEvent } from "react"
 
